@@ -1,0 +1,19 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.sliderInner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sliderItem {
+  flex: 0 0 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
